@@ -19,6 +19,13 @@ body  {
   background-image: url('./assets/sunny.jpg');
 }
 
+h1  {
+  text-align: center;
+  color: #FFF;
+  font-size: 4.8rem;
+  font-weight: 500;
+}
+
 main  {
   min-height: 100vh;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
@@ -27,7 +34,7 @@ main  {
 
 .searchBox  {
   width: 100%;
-  margin: 0 0 75px;
+  margin: 40px 0 75px;
 }
 
 .searchBox .searchBar   {

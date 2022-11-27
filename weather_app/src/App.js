@@ -32,13 +32,14 @@ function App() {
     let month = months[d.getMonth()];
     let year = d.getFullYear();
 
-    return `${day} ${month} ${date} ${year}`
+    return `${day}, ${month} ${date}, ${year}`
 
   }
   return (
     <div className={(typeof weather.main != "undefined") ? ((weather.main.temp > 60) ? "App warm" : "App") 
       : "App"}>
       <main>
+        <h1>What's The Weather?</h1>
         <div className='searchBox'>
           <input 
             type="text" 
